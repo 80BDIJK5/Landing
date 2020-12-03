@@ -1,0 +1,102 @@
+body	{
+	background: #e1e5f2;
+	color: rgb(20, 20, 20);
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	color: white;
+	font-weight: bolder;
+}
+
+h2 {
+	font-size 18px;
+	color: #022b3a;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	color: white;
+	font-size: 40px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #B5A3F5;
+}
+
+/* Custom Design */
+
+#banner {
+	background-image: url(https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+	padding: 100px 0px;
+	background-attachment: fixed;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	background-size: cover;
+}
+
+#banner h1 {
+	color:white;
+}
+
+#banner h2 {
+	color:#E0E0E0;
+	margin-top: 25px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+#banner p {
+	font-size: 30px;
+	color: white;
+	font-weight: lighter;
+}
+
+#banner a {
+	margin-top: 25px;
+}
+
+.card {
+	padding: 50px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+
+#footer {
+	background: #141414;
+	color: #E0E0E0;
+	font-size: 15px;
+	padding: 15px;
+	text-align: right;
+}
+
+#footer a {
+	font-size: 20px;
+}
+
+#footer a:hover {
+	font-size: 20px;
+	font-weight: lighter;
+	color: #6fc7ff;
+}
+
+.btn {
+	background-color: #00c0f1;
+	border-color: #e1e5f2;
+}
+
+.btn:hover {
+	background-color: #6fc7ff;
+	border-color: #e1e5f2;
+}
